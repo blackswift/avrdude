@@ -1,0 +1,32 @@
+Index: avrdude-6.1/flip1.c
+===================================================================
+--- avrdude-6.1.orig/flip1.c
++++ avrdude-6.1/flip1.c
+@@ -30,11 +30,7 @@
+ #include <limits.h>
+ #include <unistd.h>
+ 
+-#if HAVE_STDINT_H
+ #include <stdint.h>
+-#elif HAVE_INTTYPES_H
+-#include <inttypes.h>
+-#endif
+ 
+ #include "flip1.h"
+ #include "dfu.h"
+Index: avrdude-6.1/flip2.c
+===================================================================
+--- avrdude-6.1.orig/flip2.c
++++ avrdude-6.1/flip2.c
+@@ -27,11 +27,7 @@
+ #include <limits.h>
+ #include <unistd.h>
+ 
+-#if HAVE_STDINT_H
+ #include <stdint.h>
+-#elif HAVE_INTTYPES_H
+-#include <inttypes.h>
+-#endif
+ 
+ #include "flip2.h"
+ #include "dfu.h"
